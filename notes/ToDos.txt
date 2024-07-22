@@ -1,0 +1,130 @@
+ToDos:
+======================================================================
+July 19
+User should only be able to "Like" once
+- Check useGlobalStore to store clicked data in conjunction with
+   Firebase Likes data
+======================================================================
+July 17 ---
+Navbar:
+- Re-factor code for the top nav bar
+- It keeps re-loading every link changed on the styleguides
+
+StyleGuide:
+- Typography: display is wrong on 480px - 768px
+======================================================================
+July 11: StyleGuide
+- Modal: Check on 1095px screen
+- Brand Logo: Multiple container
+- Typography: Edit body copy
+- Color Palette: Edit body copy
+- Buttons: Create page
+- Forms: Lots of work
+
+======================================================================
+July 07: Difference betweeen async & promises
+Set example here:
+   asynch:
+
+   promises:
+
+======================================================================
+May 20: onHover, cursor: pointer
+- Check all hover cursor to change to pointer
+
+======================================================================
+May 3, 2024: children
+- https://www.youtube.com/watch?v=Sq0FoUPxj_c
+- Children props gives more flexibility than regular props
+- Usage:
+   function ChildComponent(props){
+      return <div>
+         <h1>Hello {props.name}</h1>
+         {props.children}
+      </div>
+   }
+   function App(){
+      return(
+         <ChildComponent name="Odee">
+            <p>These are the children elements</p>
+         </ChildComponent>
+      )
+   }
+
+======================================================================
+March 23
+- Add Like button to the Welcome & Profile pages: Need DB access
+- Expand Styleguide content:
+   -
+======================================================================
+March 18
+- Work on the Avatar popover : Add email & profile info
+- Refactor color modes: Get all
+   the useColorModeValue in one component: CAN'T!
+======================================================================
+March 16
+- The usage of Zustand global store: way too cool!
+======================================================================
+March 03
+- Navbar.tsx active hilited : DONE!
+- Link outside for Portfolio2019: target="_blank" : DONE!
+-
+
+==================================================================
+- Fetch data from the API & from local storage : DONE!
+
+==================================================================
+- Theming: Dark & Light Modes : DONE!
+   Chakra:
+      - https://chakra-ui.com/docs/styled-system/color-mode
+
+   Tailwind:
+      - https://tailwindcss.com/docs/theme
+
+==================================================================
+- Create a Dashboard for portfolio : DONE!
+   - Work on the responsiveness of the page
+   // These are the default breakpoints
+   const breakpoints = {
+   base: "0em", // 0px
+   sm: "30em", // ~480px. em is a relative unit and is dependant on the font-size.
+   md: "48em", // ~768px
+   lg: "62em", // ~992px
+   xl: "80em", // ~1280px
+   "2xl": "96em", // ~1536px
+   };
+
+==================================================================
+- Create a modal example: use right nav links to open a modal : DONE!
+   with code hiliter
+   - Chakra: Modal : https://chakra-ui.com/docs/components/modal/usage
+
+==================================================================
+- Navigation SideBar on mobile
+
+==================================================================
+- Install: Code hiliter : DONE!
+   - so far we have prismjs, we need to finish the installations
+
+==================================================================
+- List of Footer's links:
+   - Typicode API
+   - Github
+   - LinkedIn
+   - Twitter
+   - Instagram
+   - Facebook
+   - Youtube
+   - Stackoverflow
+   - Medium
+   - Hashnode
+   - Dev.to
+   - Codepen
+   - Codesandbox
+   - Dribbble
+   - Figma
+   - Behance
+   - Pinterest
+   - Reddit
+   - react
+   - Angular

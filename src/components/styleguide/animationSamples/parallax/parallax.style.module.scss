@@ -1,0 +1,94 @@
+
+.container {
+   position: relative;
+   top: 0px;
+   // height: 8000px;
+   // width: 400px;
+   border: 1px solid magenta;
+   border-radius: 2rem;
+   // transform: scale(.5);
+   // overflow: hidden;
+
+   .body {
+      position: absolute;
+      h1{
+         position: absolute;
+         // top: -1000px;
+         // left: 200px;
+         font-weight: bold;
+         font-size: 8rem;
+         color: red;
+         z-index: 10;
+      }
+   }
+   .images {
+      position: absolute;
+      // top: 0px;
+      // width: 400px;
+      // height: 1250px;
+      // height: 100%;
+      height: 1200px;
+      border: 1px solid cyan;
+
+      .img01 {
+         // position: sticky;
+         top: 0px;
+         // left: 0px;
+         z-index: 0;
+      }
+      .img02 {
+         // border: 1px solid red;
+         position: sticky;
+         // width: 564px;
+         // height: 200px;
+         top: 0px;
+         // left: 0px;
+         z-index: 5;
+      }
+      .img03 {
+         z-index: 6;
+      }
+   }
+
+   .images2 {
+      position: relative;
+      top: 2000px;
+      height: 1500px;
+      border: 5px solid yellow;
+
+      .img04 {
+         position: sticky;
+         top: 0px;
+      }
+
+      .img05 {
+
+      }
+   }
+}
+
+/* bg */
+
+// position: absolute;
+// width: 564px;
+// height: 1128px;
+
+// background: url(bg.jpg);
+
+
+// /* prlx-03 */
+
+// position: absolute;
+// width: 564px;
+// height: 1128px;
+
+// background: url(prlx-03.png);
+
+
+// /* fg */
+
+// position: absolute;
+// width: 564px;
+// height: 1128px;
+
+// background: url(fg.png);

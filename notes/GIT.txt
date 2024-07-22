@@ -1,0 +1,6 @@
+
+git log --oneline : to see all commits
+
+https://github.com/RLloyd?tab=repositories
+
+https://github.com/RLloyd/RLloydGonzales2024Portfolio

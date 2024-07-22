@@ -1,0 +1,42 @@
+<svg version="1.1" id="svgArches"
+         xmlns="http://www.w3.org/2000/svg"
+         xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+         viewBox="0 0 255 255" style="enable-background:new 0 0 255 255;"
+         xml:space="preserve">
+         <style type="text/css">
+         .st0{fill:none;stroke:#F05D1A;stroke-width:2;stroke-miterlimit:10;}
+         .st1{fill:none;stroke:#808285;stroke-width:8;stroke-miterlimit:10;stroke-dasharray:20.1104,8.0442;}
+         .st2{fill:none;stroke:#6D6E71;stroke-width:12;stroke-miterlimit:10;}
+         .st3{fill:none;stroke:#808285;stroke-width:4;stroke-miterlimit:10;}
+         .st4{fill:none;stroke:#A7A9AC;stroke-width:3;stroke-miterlimit:10;stroke-dasharray:2.003,8.0121;}
+         .st5{fill:none;stroke:#808285;stroke-width:6;stroke-miterlimit:10;}
+         </style>
+         <circle id="circ1"
+         class="st0" cx="127.5" cy="127.5" r="124.5"/>
+
+         <g id="circ2">
+         <circle class="st1" cx="127.5" cy="127.5" r="116.5"/>
+         </g>
+
+         <circle id="circ3"
+         class="st0" cx="127.5" cy="127.5" r="108.4"/>
+
+         <path id="circ4"
+         class="st2" d="M223.2,127.5c0,52.8-42.8,95.7-95.7,95.7s-95.7-42.8-95.7-95.7s42.8-95.7,95.7-95.7
+         c26.4,0,50.4,10.7,67.7,28.1"/>
+
+         <path id="circ5" class="st3" d="M58.6,182.5c-15.2-19.1-22.5-44.4-17.9-70.3c8.5-47.9,54.2-80,102.1-71.5s80,54.2,71.5,102.1
+         s-54.2,80-102.1,71.5"/>
+
+         <g id="circ6">
+         <circle class="st4" cx="127.5" cy="127.5" r="79.7"/>
+         </g>
+
+         <path id="circ7"
+         class="st2" d="M77,82.9c12.3-14,30.4-22.8,50.5-22.8c37.2,0,67.4,30.2,67.4,67.4s-30.2,67.4-67.4,67.4
+         s-67.4-30.2-67.4-67.4"/>
+
+         <path id="circ8"
+         class="st5" d="M81.5,164.2c-10.2-12.7-15-29.6-12-46.9c5.6-32,36.2-53.4,68.2-47.8s53.4,36.2,47.8,68.2
+         c-5.6,32-36.2,53.4-68.2,47.8"/>
+   </svg>

@@ -1,0 +1,22 @@
+
+==================================================================
+Relationship of Chakra & Tailwind using React-Router
+   <NavLink to={menu.link}
+      // activeClassName="hover-red"
+      style={({ isActive }) => {
+         return {
+            fontWeight: isActive ? "bold" : "",
+            color: isActive ? "red" : "accent.500",
+            //   color: isPending ? "red" : "black",
+            //   viewTransitionName: isTransitioning ? "slide" : "",
+         };
+      }}
+      className={"hover:text-green-500"}
+      _hover={"cyan"} //doesn't work
+      className={"navLink"} // works but in separate css file
+      activeStyle={{ color: "red" }} //doesn't work
+      >
+      {menu.label}
+   </NavLink>
+
+==================================================================

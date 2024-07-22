@@ -1,0 +1,20 @@
+//Changing Leading
+Open Settings & search for Line Height
+
+//Zoom to code
+Settings/zoom
+Mouse wheel zoom: turn it on
+
+//Edit in settings.json
+Open Settings/search for Color Customization/
+    Click on Edit in Settings.json
+
+//Move explorer to right/left
+   View/Apperance/Move to right
+
+//Explorer activity window
+   View/Appearance/Activity Bar Position/top:left:hidden
+
+
+//To include commenting existing comments
+   Cmd + Opt + /

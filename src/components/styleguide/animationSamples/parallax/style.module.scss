@@ -1,0 +1,90 @@
+
+.container {
+   position: relative;
+   top: 0px;
+   height: 3000px;
+   // width: 400px;
+   border: 1px solid yellowGreen;
+   border-radius: 2rem;
+   // transform: scale(.5);
+   // overflow: hidden;
+
+   .body {
+      position: absolute;
+      h1{
+         position: absolute;
+         // top: -1000px;
+         // left: 200px;
+         font-weight: bold;
+         font-size: 8rem;
+         color: white;
+         z-index: 10;
+      }
+   }
+   .images {
+      // width: 400px;
+      // height: 1250px;
+      // height: 100%;
+      // height: 800px;
+      border: 1px solid cyan;
+
+      .birds {
+         position: absolute;
+         // left: -4490px;
+         // top: -440px;
+         left: -4490px;
+         top: -440px;
+         z-index: 10;
+      }
+      .bgImg {
+         position: absolute;
+         // width: 564px;
+         // height: 1128px;
+         top: 0px;
+         left: 0px;
+
+         z-index: 0;
+      }
+      .mdImg {
+         // border: 1px solid red;
+         position: absolute;
+         width: 564px;
+         height: 1128px;
+         top: 0px;
+         left: 0px;
+         z-index: 5;
+      }
+      .fgImg {
+         position: absolute;
+         width: 564px;
+         height: 1128px;
+         z-index: 20;
+      }
+   }
+}
+
+/* bg */
+
+// position: absolute;
+// width: 564px;
+// height: 1128px;
+
+// background: url(bg.jpg);
+
+
+// /* prlx-03 */
+
+// position: absolute;
+// width: 564px;
+// height: 1128px;
+
+// background: url(prlx-03.png);
+
+
+// /* fg */
+
+// position: absolute;
+// width: 564px;
+// height: 1128px;
+
+// background: url(fg.png);

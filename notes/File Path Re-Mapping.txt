@@ -1,0 +1,44 @@
+
+
+
+To Do!
+
+March 6, 2024
+The following doesn't work but it makes sense. Check out this article
+might have something to do with Vite.
+https://dev.to/isiakaabd/configuring-absolute-path-in-react-projects-4h9o
+
+
+There are a couple of ways to map file paths
+ in React
+. One way is to use the paths property in the
+compilerOptions object of your tsconfig.json file.
+This will allow you to map path alias names to file paths.
+For example, you could map the alias @components to the path src/components.
+Another way to map file paths is to use the resolve function from the webpack module.
+This function allows you to resolve a file path relative to a given context.
+For example, you could resolve the file path ./components/Button relative
+to the context of your src directory.
+
+Here is an example of how to use the paths property
+in your tsconfig.json file to map file paths:
+
+{
+  "compilerOptions": {
+    "paths": {
+      "@components/*": ["src/components/*"],
+       "@images/*": ["src/assets/images/*"],
+       "@styles/*": ["src/assets/styles/*"],
+    }
+  }
+}
+
+Once you have mapped your file paths,
+you can use them in your React components.
+For example, you could import the Button
+component from the @components alias:
+
+import Button from '@components/Button';
+
+May 1, 2024
+https://www.youtube.com/watch?v=h2ZS5rTsuRQ

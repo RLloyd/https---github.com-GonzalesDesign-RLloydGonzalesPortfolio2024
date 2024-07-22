@@ -1,0 +1,4 @@
+npx create-vite@latest
+Project name:
+Select a framework: React
+Select a variant: typescript
